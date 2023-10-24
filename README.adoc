@@ -1,6 +1,6 @@
 :toc:
 
-== Account summary
+== Account Summary
 
 image::http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=niveK77pur&theme=transparent[width=100%]
 image:http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=niveK77pur&theme=transparent[width=49.7%]
@@ -8,14 +8,22 @@ image:http://github-profile-summary-cards.vercel.app/api/cards/repos-per-languag
 image:http://github-profile-summary-cards.vercel.app/api/cards/stats?username=niveK77pur&theme=transparent[width=49.7%]
 image:http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=niveK77pur&theme=transparent&utcOffset=2[width=49.7%]
 
-== My configurations
+== My Configurations
 
 image:https://github-readme-stats.vercel.app/api/pin/?username=niveK77pur&repo=77configs&theme=transparent[width=49.7%]
 image:https://github-readme-stats.vercel.app/api/pin/?username=niveK77pur&repo=nvim&theme=transparent[width=49.7%]
 
 == Piano
 
+=== MIDI Input inside of NeoVim
+
+As someone who is very enthusiastic about the piano, but also loves working in the terminal using NeoVim, I have always found myself missing the ability to write my LilyPond scores using MIDI right from the comfort of NeoVim. https://frescobaldi.org/[Frescobaldi] always filled this gap, but thanks to NeoVim's async job capabilities, I was finally able to make it work *inside of* NeoVim! The `lilypond-midi-input` backend is written in Rust, and is spawned by the `midi-input.nvim` NeoVim plugin! The plugin further provides many niceties to make working with MIDI as nice as possible.
+
 image:https://github-readme-stats.vercel.app/api/pin/?username=niveK77pur&repo=midi-input.nvim&theme=transparent[width=49.7%]
 image:https://github-readme-stats.vercel.app/api/pin/?username=niveK77pur&repo=lilypond-midi-input&theme=transparent[width=49.7%]
 
-image::https://github.com/VinLudens
+=== My LilyPond Music Sheets Archive
+
+I created a separate organization where I store/archive all my LilyPond sheet music. You might be familiar with https://github.com/niveK77pur/VinLudens_Music-Sheets[the old archived repository], but it ended up becoming unmanagable. The organization holds one repository per sheet, allowing to use CI/CD to automatically compile the output PDF from the source code. It's very neat, I'm very happy with it; check it out!
+
+https://github.com/VinLudens
