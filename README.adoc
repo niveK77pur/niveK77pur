@@ -1,17 +1,31 @@
+:username: niveK77pur
+
+:fullwidth: width=100%
+:sidebysidewidth: width=49.7%
+
+:profile-summary: http://github-profile-summary-cards.vercel.app/api/cards/
+:readme-stats: https://github-readme-stats.vercel.app/api/pin/
+
+:theme: transparent
+:utc: 2
+
+:user-github: https://github.com/{username}
+
+
 :toc:
 
 == Account Summary
 
-image::http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=niveK77pur&theme=transparent[width=100%]
-image:http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=niveK77pur&theme=transparent[width=49.7%]
-image:http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=niveK77pur&theme=transparent[width=49.7%]
-image:http://github-profile-summary-cards.vercel.app/api/cards/stats?username=niveK77pur&theme=transparent[width=49.7%]
-image:http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=niveK77pur&theme=transparent&utcOffset=2[width=49.7%]
+image::{profile-summary}profile-details?username={username}&theme={theme}[{fullwidth}, link={user-github}]
+image:{profile-summary}most-commit-language?username={username}&theme={theme}[{sidebysidewidth}, link={user-github}]
+image:{profile-summary}repos-per-language?username={username}&theme={theme}[{sidebysidewidth}, link={user-github}]
+image:{profile-summary}stats?username={username}&theme={theme}[{sidebysidewidth}, link={user-github}]
+image:{profile-summary}productive-time?username={username}&theme={theme}&utcOffset={utc}[{sidebysidewidth}, link={user-github}]
 
 == My Configurations
 
-image:https://github-readme-stats.vercel.app/api/pin/?username=niveK77pur&repo=77configs&theme=transparent[width=49.7%]
-image:https://github-readme-stats.vercel.app/api/pin/?username=niveK77pur&repo=nvim&theme=transparent[width=49.7%]
+image:{readme-stats}?username={username}&repo=77configs&theme={theme}[{sidebysidewidth}, link={user-github}/77configs]
+image:{readme-stats}?username={username}&repo=nvim&theme={theme}[{sidebysidewidth}, link={user-github}/nvim]
 
 == Piano
 
@@ -19,8 +33,8 @@ image:https://github-readme-stats.vercel.app/api/pin/?username=niveK77pur&repo=n
 
 As someone who is very enthusiastic about the piano, but also loves working in the terminal using NeoVim, I have always found myself missing the ability to write my LilyPond scores using MIDI right from the comfort of NeoVim. https://frescobaldi.org/[Frescobaldi] always filled this gap, but thanks to NeoVim's async job capabilities, I was finally able to make it work *inside of* NeoVim! The `lilypond-midi-input` backend is written in Rust, and is spawned by the `midi-input.nvim` NeoVim plugin! The plugin further provides many niceties to make working with MIDI as nice as possible.
 
-image:https://github-readme-stats.vercel.app/api/pin/?username=niveK77pur&repo=midi-input.nvim&theme=transparent[width=49.7%]
-image:https://github-readme-stats.vercel.app/api/pin/?username=niveK77pur&repo=lilypond-midi-input&theme=transparent[width=49.7%]
+image:{readme-stats}?username={username}&repo=midi-input.nvim&theme={theme}[{sidebysidewidth}, link={user-github}/midi-input.nvim]
+image:{readme-stats}?username={username}&repo=lilypond-midi-input&theme={theme}[{sidebysidewidth}, link={user-github}/lilypond-midi-input]
 
 === My LilyPond Music Sheets Archive
 
