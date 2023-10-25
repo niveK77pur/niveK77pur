@@ -7,6 +7,7 @@
 :readme-stats: https://github-readme-stats.vercel.app/api/pin/
 
 :theme: transparent
+:trophy-theme: algolia
 :utc: 2
 
 :user-github: https://github.com/{username}
@@ -21,6 +22,7 @@ image:{profile-summary}most-commit-language?username={username}&theme={theme}[{s
 image:{profile-summary}repos-per-language?username={username}&theme={theme}[{sidebysidewidth}, link={user-github}]
 image:{profile-summary}stats?username={username}&theme={theme}[{sidebysidewidth}, link={user-github}]
 image:{profile-summary}productive-time?username={username}&theme={theme}&utcOffset={utc}[{sidebysidewidth}, link={user-github}]
+// image:https://github-profile-trophy.vercel.app/?no-bg=true&no-frame=true&username={username}&rank=SECRET,SSS,SS,S,AAA,AA,A&theme={trophy-theme}[link={user-github}]
 
 == My Configurations
 
