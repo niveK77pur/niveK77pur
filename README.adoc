@@ -1,7 +1,7 @@
 :username: niveK77pur
 
 :fullwidth: width=100%
-:sidebysidewidth: width=49.7%
+:sidebysidewidth: width=49%
 
 :profile-summary: http://github-profile-summary-cards.vercel.app/api/cards/
 :readme-stats: https://github-readme-stats.vercel.app/api/pin/
